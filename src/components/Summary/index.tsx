@@ -2,11 +2,12 @@ import { useContext, useState } from 'react';
 import incomeImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 import totalImg from '../../assets/total.svg'
-import { TransactionsContext } from '../../TransacitonsContext';
+import { useTransactions } from '../../hooks/useTransactions';
+
 import { Container } from "./styles";
 
 export function Summary() {
-    const { transactions } = useContext(TransactionsContext);
+    const { transactions } = useTransactions();
     
     console.log(transactions);
 
@@ -26,8 +27,7 @@ export function Summary() {
         total: 0,
     })
 
-        
-    const [totalColor, setTotalColor] = useState('highlight-background')
+    
     
     return(
         <Container>
@@ -55,7 +55,7 @@ export function Summary() {
                 </header>
                 <strong>-${summary.withdraws}</strong>
             </div>
-            <div id="teste" className={totalColor}>
+            <div id="teste" className="highlight-background">
                 <header>
                     <p>Total</p>
                     <img src={totalImg} alt="Total" />
