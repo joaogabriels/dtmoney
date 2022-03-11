@@ -20,7 +20,7 @@ O dtmoney é um gerenciador de finanças simples e conveniente, permitindo a viz
   [Axios](https://github.com/axios/axios)</br>
 
 ## Instalação: 
-  Coloque os seguintes comandos em seu terminal:
+  Cole os seguintes comandos em seu terminal:
   ```
   git clone https://github.com/joaogabriels/dtmoney.git
   cd dtmoney
