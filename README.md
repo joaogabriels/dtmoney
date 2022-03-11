@@ -15,7 +15,7 @@ O dtmoney é um gerenciador de finanças simples e conveniente, permitindo a viz
   [React](https://reactjs.org/)</br>
   [TypeScript](https://www.typescriptlang.org/)</br>
   [Styled Components](https://styled-components.com/)</br>
-  [Polished](https://polished.js.org/)
+  [Polished](https://polished.js.org/)</br>
   [MirageJS](https://miragejs.com/)</br>
   [Axios](https://github.com/axios/axios)</br>
 
