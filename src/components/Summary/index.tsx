@@ -9,7 +9,6 @@ import { Container } from "./styles";
 export function Summary() {
     const { transactions } = useTransactions();
     
-    console.log(transactions);
 
     const summary = transactions.reduce((acc, transaction) => { 
         if (transaction.type === 'deposit'){
